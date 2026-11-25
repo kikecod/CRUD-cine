@@ -1,6 +1,7 @@
 const API = '/api/peliculas'
 
 const tabla = document.getElementById('tablaPeliculas')
+c
 
 async function listar(){
     const res = await fetch(API + '/');
